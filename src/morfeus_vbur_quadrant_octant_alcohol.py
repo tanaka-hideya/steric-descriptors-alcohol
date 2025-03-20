@@ -196,7 +196,7 @@ if __name__ == '__main__':
     dataset_file_path_output = f'{fd}/morfeus_quadrant_octant_{keyword}.csv'
     # =============================================
 
-    sys.stdout = open(f'log_morfeus_{keyword}.txt', 'w')
+    sys.stdout = open(f'{fd}/log_morfeus_{keyword}.txt', 'w')
     process_rows_for_morfeus_qo(fd, dataset_file_path_input, xyz_dir_path_input, sdf_file_path_input, dataset_file_path_output, 
                                 keyword, radius_list, radius_for_stericmap, njobs=-1)
     print('Finish')
