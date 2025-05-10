@@ -20,6 +20,7 @@ import matplotlib.pyplot as plt
 from morfeus import read_xyz, BuriedVolume
 
 def plot_steric_profile(radius_list, buried_volume_list, png_file_path_output, figure_title):
+    plt.rcParams.update({'font.size': 15})
     fig, ax_left = plt.subplots()
     ax_left.scatter(radius_list, buried_volume_list)
     ax_left.set_xlabel('Sphere radius (Å)')
