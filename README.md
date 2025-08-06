@@ -10,10 +10,10 @@ It provides the code, data, and analysis workflows associated with this publicat
 A distinctive feature of this analysis workflow is its streamlined integration of several steps: comprehensive parameter scanning, identification of the most suitable steric descriptors for predicting molecular reactivity using univariate linear regression models, and visualization of model evaluation results. The workflow has been designed so that systematic analyses using steric descriptors can be readily performed. To the best of our knowledge, this study presents the most systematic investigation of %Vbur parameters applied to organic reaction substrates to date.
 
 ## Installation
-Supported Operating Systems:
-- macOS
-- Linux
-- WindowsOS
+Tested Operating Systems:
+- macOS (version 14.5)
+- Ubuntu (version 22.04.5 LTS)
+- Windows 11
 
 Programming Language:
 - Python
@@ -32,7 +32,7 @@ Non-standard Hardware:
 Typical Install Time:
 - Approximately 2 minutes on a current computer.
 
-Installation Steps:
+Installation Steps:  
 Install miniconda from [here](https://docs.anaconda.com/miniconda/)
 
 ```bash
@@ -43,7 +43,7 @@ conda activate steric-descriptors-alcohol
 ```
 
 ## Tutorial
-To facilitate the reproduction of the analysis workflow, interactive tutorial notebooks are provided:
+To facilitate the reproduction of the analysis workflow, tutorial notebooks are provided:
 - `tutorial/1_descriptor_generation.ipynb` (Typical runtime: ~15 minutes on a modern laptop)
 - `tutorial/2_model_evaluation.ipynb` (Typical runtime: ~10 minutes on a modern laptop)
 - `tutorial/3_visualization.ipynb` (Typical runtime: ~2 minutes on a modern laptop)
