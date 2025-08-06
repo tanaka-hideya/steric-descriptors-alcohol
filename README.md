@@ -4,7 +4,7 @@ It provides the code, data, and analysis workflows associated with this publicat
 A distinctive feature of this analysis workflow is its streamlined integration of several steps: comprehensive parameter scanning, identification of the most suitable steric descriptors for predicting molecular reactivity using univariate linear regression models, and visualization of model evaluation results. The workflow has been designed so that systematic analyses using steric descriptors can be readily performed. To the best of our knowledge, this study presents the most systematic investigation of %Vbur parameters applied to organic reaction substrates to date.
 
 ## Reference
-Yusuke Sasano, Hideya Tanaka, Shuhei Akutsu, Riki Yamakawa, Shu Saito, Keita Kido, Tsubasa Suzuki, Yuki Tateishi, Shota Nagasawa, Yoshiharu Iwabuchi, Tomoyuki Miyao, Quantitative Structure–Reactivity Relationship-Guided Mechanistic Study Enables the Optimization of Nitroxyl Radical-Catalyzed Alcohol Oxidation, ChemRxiv, 2024, [DOI: 10.26434/chemrxiv-2025-nlj60](https://chemrxiv.org/engage/chemrxiv/article-details/6821fa04e561f77ed44fc0d3)
+Yusuke Sasano, Hideya Tanaka, Shuhei Akutsu, Riki Yamakawa, Shu Saito, Keita Kido, Tsubasa Suzuki, Yuki Tateishi, Shota Nagasawa, Yoshiharu Iwabuchi, Tomoyuki Miyao, Quantitative Structure–Reactivity Relationship-Guided Mechanistic Study Enables the Optimization of Nitroxyl Radical-Catalyzed Alcohol Oxidation, ChemRxiv, 2025, [DOI: 10.26434/chemrxiv-2025-nlj60](https://chemrxiv.org/engage/chemrxiv/article-details/6821fa04e561f77ed44fc0d3)
 
 ## Installation
 Tested Operating Systems:
